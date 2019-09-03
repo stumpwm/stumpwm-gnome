@@ -1,8 +1,0 @@
-# -*- mode: conf -*-
-
-[Desktop Entry]
-Comment=GNOME session management + i3
-Exec=gnome-session --session=i3-gnome
-Name=GNOME + i3
-TryExec=gnome-session
-Type=XSession

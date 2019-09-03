@@ -1,0 +1,8 @@
+# -*- mode: conf -*-
+
+[Desktop Entry]
+Comment=GNOME session management + stumpwm
+Exec=gnome-session --session=stumpwm-gnome
+Name=GNOME + stumpwm
+TryExec=gnome-session
+Type=XSession
