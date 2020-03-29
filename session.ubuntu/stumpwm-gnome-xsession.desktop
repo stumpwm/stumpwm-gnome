@@ -1,0 +1,10 @@
+# -*- mode: conf -*-
+
+[Desktop Entry]
+Comment=GNOME session management + stumpwm
+Exec=gnome-session --session=stumpwm-gnome --systemd
+Name=GNOME + stumpwm
+TryExec=gnome-session
+Type=XSession
+# Without DesktopNames entry gnome input dialogs may not work
+DesktopNames=stumpwm-gnome
